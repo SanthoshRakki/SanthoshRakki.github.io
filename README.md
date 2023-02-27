@@ -1,2 +1,2 @@
-# SanthoshRakki.github.io
+#sandyresume.github.io
 My Website
