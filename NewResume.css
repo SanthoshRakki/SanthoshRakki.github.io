@@ -589,6 +589,7 @@ span{
 @media(max-width: 991px){
     .header{
         padding: 2rem 3%;
+        width: 991px;
     }
     section{
         padding: 10rem 3% 2rem;
@@ -612,6 +613,9 @@ span{
 @media(max-width: 768px){
     #menu-icon{
         display: block;
+    }
+    .header{
+        width: 768px;
     }
     .navbar{
         position: absolute;
@@ -677,8 +681,22 @@ span{
     }
 }
 @media(max-width: 400px){
-    .body{
-        scrollbar-width:658px ;
+    /* html{
+        /* width: 94%; */
+
+        
+        /* scrollbar-width: 400px; */
+        /* background-color: antiquewhite; */
+/* 
+        gap: 50px; */
+        /* -ms-scroll-limit-x-max: 400px; */
+        /* display: inline-block; */
+        
+    } */
+    body{
+        justify-content: center;
+        width: 400px;
+        height: 658px;
     }
     .header{
         padding:2rem 3%;
