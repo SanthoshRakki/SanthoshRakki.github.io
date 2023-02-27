@@ -690,19 +690,21 @@ span{
 /* 
         gap: 50px; */
         /* -ms-scroll-limit-x-max: 400px; */
-        /* display: inline-block; */
+        /* display: inline-block; 
+    }*/
         
-    } */
-    body{
+     body{
         justify-content: center;
-        width: 400px;
+        width: 430px;
         height: 658px;
     }
     .header{
         padding:2rem 3%;
         justify-content: space-between;
-        width: 400px;
+        width: 430px; 
     }
+        
+    
     .home-img{
         width: 90vw;
     }
