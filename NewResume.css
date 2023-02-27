@@ -14,7 +14,7 @@
     --bg-color: #1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color:#0ef;
+    --main-color:rgb(10, 159, 131);
 }
 
 html{
@@ -51,7 +51,7 @@ span{
 }
 
 .logo{
-      font-size: 2.5rem;
+      font-size: 25px;
       color: var(--text-color);
       text-decoration: none;
       font-weight: 600;
@@ -214,6 +214,7 @@ span{
 .about-content h3{
     font-size: 2.6rem;
 }
+
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
@@ -234,6 +235,9 @@ span{
     align-items: center;
     gap: 2.5 rem; 
 } 
+.services-overall h1{
+    font-size: 2.6rem;
+}
 .services-container .services-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
@@ -246,6 +250,17 @@ span{
 .services-container .services-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
+    background: var(--second-bg-color);
+}
+.technical-box{
+    display: flex;
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color) ;
+    transform: .5s ease;
 }
 .percentage-box{
     display: flex;
@@ -345,7 +360,7 @@ span{
   }
   @keyframes anim1{
     100%{
-        stroke-dashoffset: 188;
+        stroke-dashoffset: 94.4;
     }
   }
   #circle2{
@@ -653,7 +668,7 @@ span{
         grid-template-columns: 1fr;
     }
 }
-  {
+{
     html{
         font-size: 50%;
     }
@@ -684,7 +699,7 @@ span{
     color: var(--second-bg-color);
 }
 /*KEYFRAMES ANIMATION*/
-/* @keyframes slideRight{
+@keyframes slideRight{
     0%{
         transform: translateX(-100px);
         opacity: 0;
@@ -694,10 +709,6 @@ span{
         opacity: 1;
     }
 }
-
-*/
-
-
 @keyframes zoomIn{
     0%{
         transform: scale(0);
